@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #747794;
+    font-size: 1rem;
+}
+
+.background-shapes .box1 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #3f43fd;
+    border-radius: .35rem;
+    background-color: transparent;
+    z-index: 1;
+    -webkit-animation: box-shape linear 5s infinite;
+    animation: box-shape linear 5s infinite;
+}
+
+.background-shapes .box2 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #3f43fd;
+    border-radius: .35rem;
+    background-color: transparent;
+    z-index: 1;
+    -webkit-animation: box-shape linear 8s infinite;
+    animation: box-shape linear 8s infinite;
+}
+
+.background-shapes .box3 {
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #3f43fd;
+    border-radius: .35rem;
+    background-color: transparent;
+    z-index: 1;
+    -webkit-animation: box-shape linear 9s infinite;
+    animation: box-shape linear 9s infinite;
+}
+
+.background-shapes .dot1 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #3f43fd;
+    top: 74%;
+    left: 6%;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.background-shapes .dot2 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #f4284a;
+    top: 18%;
+    right: 4%;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.background-shapes .dot3 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #f4284a;
+    top: 90%;
+    left: 43%;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.background-shapes .dot4 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #3f43fd;
+    top: 91%;
+    right: 5%;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.background-shapes .heart1 {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 51%;
+    left: 13%;
+    z-index: 1;
+    color: #f4284a;
+    -webkit-animation: box-shape linear 9s infinite;
+    animation: box-shape linear 9s infinite;
+}
+
+.background-shapes .heart2 {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 55%;
+    right: 8%;
+    z-index: 1;
+    color: #f4284a;
+    -webkit-animation: box-shape linear 12s infinite;
+    animation: box-shape linear 12s infinite;
+}
+
+.background-shapes .circle1 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 3px solid #f4284a;
+    bottom: 8%;
+    left: 21%;
+    z-index: 1;
+    -webkit-animation: box-shape linear 4s infinite;
+    animation: box-shape linear 4s infinite;
+}
+
+.background-shapes .circle2 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 3px solid #f4284a;
+    top: 24%;
+    left: 52%;
+    z-index: 1;
+    -webkit-animation: box-shape linear 4s infinite;
+    animation: box-shape linear 4s infinite;
+}
+
+.home_barisal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover !important;
+    background-position: center bottom !important;
+    background-repeat: no-repeat !important;
+}
+
+.home_barisal img {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.justify-content-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between !important;
+}
+
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12,
+.col-md-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-10,
+.col-sm-8,
+.col-md-5 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+img {
+    height: 350px;
+    max-width: 100%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.hero-barishal.welcome_area .welcome_text_area {
+    padding-top: 90px;
+    padding-left: 30px;
+
+}
+
+
+
+.welcome_text_area h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.hero-barishal.welcome_area .welcome_text_area h2 span {
+    color: #3f43fd;
+}
+
+.welcome_text_area h5 {
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1.25rem;
+}
+
+.hero-barishal.welcome_area .welcome_text_area h2 span:last-child {
+    color: #f4284a;
+}
+
+.apland-btn {
+    color: #ffffff;
+}
+
+.apland-btn,
+#scrollUp,
+.welcome_slider .owl-dot.active::after,
+.newsletter-form-area .button,
+.footer_social_area a:hover,
+.footer_social_area a:focus,
+.tooltip-inner {
+    background-color: #3f43fd;
+}
+
+.apland-btn {
+    position: relative;
+    z-index: 1;
+    border: 2px solid transparent;
+    display: inline-block;
+    font-size: 14px;
+    padding: 0.8rem 1.6rem;
+    border-radius: 6px;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.ml-2,
+.mx-2 {
+    margin-left: .5rem !important;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.btn {
+    font-weight: 500;
+}
+
+.apland-btn.btn-2 {
+    background-color: #ffffff;
+    color: #3f43fd;
+    border: 2px solid #3f43fd;
+}
+
+.hero-barishal.welcome_area .welcome_area_thumb {
+    padding-top: 90px;
+    padding-left: 100px;
+}
+
+.welcome_area_thumb {
+    position: relative;
+    z-index: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #020710;
+    font-weight: 600;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+element.style {
+    visibility: visible;
+    animation-delay: 0.2s;
+    animation-name: fadeInUp;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+
+}
